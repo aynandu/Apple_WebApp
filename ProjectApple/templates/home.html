@@ -1,11 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Apple</title>
-</head>
-<body>
-    Hello Apple!
-</body>
-</html>
+{% extends 'base.html' %}
+{% load static %}
+
+{% block metadescription %}
+    Apple Web App Created  by Nandu AY for Education Purpose. This WebApp displays products from Apple.
+{% endblock %}
+{% block title %}
+    Apple
+{% endblock %}
+{% block content %}
+
+<h1>Hello Apple</h1>
+{% endblock %}
