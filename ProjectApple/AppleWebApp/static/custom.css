@@ -1,0 +1,10 @@
+html, body{
+  margin:0px;  
+}
+.myNav{
+    background-color: black;
+    
+}
+.Navdrop a{
+    color: white;
+}
